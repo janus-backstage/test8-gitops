@@ -1,0 +1,21 @@
+app:
+  name: test8
+  namespace: test8-dev
+  cluster: 
+
+git:
+  branch: main
+  repo: https://github.com/janus-backstage/test8.git
+  org: janus-backstage
+  name: test8
+  host: github.com
+  token: ''
+  webhookSecret: ''
+
+
+image:
+  registry: Openshift
+  organization: 
+  host: image-registry.openshift-image-registry.svc:5000
+  name: test8
+  tag: latest
